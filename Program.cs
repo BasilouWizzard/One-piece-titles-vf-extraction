@@ -8,7 +8,7 @@ namespace extraction_des_titres
     {
         static void Main(string[] args)
         {
-            string path = @"C:\Users\Basile\Desktop\liste.txt";
+            string path = @"path to file";
             string[] liste = ExtraireTitres(path);
             liste = StripBetweenTags(liste);
             AfficherTableau(liste);
